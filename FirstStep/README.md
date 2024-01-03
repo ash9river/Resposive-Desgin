@@ -150,8 +150,33 @@ h1{
 - **small-caps**
   - 소문자를 작은 대문자로 처리 
 
+<br>
 
+## 리스트 관련 속성
 
+### list-style
 
+- 여러 가지 있지만, url() 가능
 
+## 배경 관련 속성
 
+### background-color
+
+- 배경색 지정
+- color처럼 rgb, hsl, hexa 가능
+
+### background-repeat
+
+![111666ㅁㅁㄴ](https://github.com/ash9river/Resposive-Desgin/assets/121378532/b926c0a8-33f7-49fe-a8cd-73d94e742eca){: width=80% height=80%}
+
+### background-position
+
+![ㅇㅇㅁㄴㅇ](https://github.com/ash9river/Resposive-Desgin/assets/121378532/39ad0656-d2f8-4a09-952c-acf58323bf90){: width=80% height=80%}
+
+### background-size
+
+![asdsdad](https://github.com/ash9river/Resposive-Desgin/assets/121378532/b21514bc-8a62-49fd-af68-ceebd90b106a){: width=80% height=80%}
+
+### background-attachment
+
+- 스크롤해도 따라다닌다.
