@@ -43,7 +43,9 @@
 
 <br>
 
-## 글자 관련 속성
+# 글자 관련 속성
+
+## TEXT 관련 속성
 
 ### color(글자색 지정 속성)
 
@@ -111,10 +113,42 @@ h1{
 }
 ```
 
+## FONT 관련 속성
 
+### font-family
 
+- 글꼴 지정 속성
 
+### font-size
 
+- 글자 크기 지정 속성
+- px, %, em 등
+
+### font-weight
+
+- 폰트가 지원해줘야 여러 굵기를 사용할 수 있다.
+- 보통 100 ~ 900 사이로 100단위 사용
+- **normal**
+  - default
+- **bold**
+  - **bold**
+- 숫자 지정
+  - 100에서 900 사이 100단위 지정(높을수록 굵음)
+ 
+### font-style
+
+- **normal**
+  - default
+- **italic**
+  - 기울게 함
+
+### font-variant
+
+- 소문자 => 작은 대문자
+- **normal**
+  - default
+- **small-caps**
+  - 소문자를 작은 대문자로 처리 
 
 
 
