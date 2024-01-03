@@ -77,6 +77,39 @@
 
 ### text-indent
 
+- 수치에 따른 첫 줄 들여쓰기 혹은 내어쓰기
+- default는 0
+
+### letter-spacing
+
+- 글자 간의 간격 조정
+
+### word-spacing
+
+- 단어 간의 간격 조정
+
+### line-height
+
+- 줄 간격 조정
+
+### direction
+
+- 글자 방향 전환
+- **ltr**
+  - 기본값(왼쪽에서 오른쪽)
+- **rtl**
+  - 오른쪽에서 왼쪽
+ 
+### text-shadow
+
+- 글자 그림자 처리
+- x축 y축 번짐 색상 순이다.
+
+```
+h1{
+  text-shadow:2px 2px 2px red;
+}
+```
 
 
 
