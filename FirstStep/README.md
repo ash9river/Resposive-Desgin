@@ -180,3 +180,50 @@ h1{
 ### background-attachment
 
 - 스크롤해도 따라다닌다.
+
+## 테두리 관련 속성
+
+### border-style
+
+|키워드|설명|
+|:---:|---|
+|solid|실선|
+|dashed|긴 점선|
+|outset|아래쪽 어둡게 처리|
+|groove|파인선(3px 이상)|
+|dotted|짧은 점선|
+|double|두 줄 처리(2px 이상)|
+|inset|위 쪽을 어둡게 처리|
+|ridge|볼록한 선(3px 이상)|
+
+### border-color
+
+- 테두리 색 설정
+- rgb, hsl, hex 등
+
+### border
+
+- `속기법` : width, stlye, color 한 번에 지정
+
+```
+.myContent{
+  border: 1px solid black;
+}
+```
+
+### border-top, border-bottom, border-left,border-right
+
+- 한 쪽만 지정
+
+### border-radius
+
+- 모서리를 둥글게 한다.
+
+
+
+
+
+
+
+
+
