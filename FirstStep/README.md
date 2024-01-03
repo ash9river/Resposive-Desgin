@@ -47,9 +47,42 @@
 
 ### color(글자색 지정 속성)
 
-- rgb, hsk, hex 등...
+- rgb, hsl, hex 등...
 
 ### text-align(문단 가로 정렬)
+
+|키워드|설명|
+|:---:|---|
+|left|글자를 왼쪽에 지정|
+|right|글자를 오른쪽에 지정|
+|center|글자를 가운데에 지정|
+|justify|요소에 가로 폭이 있는 경우 양쪽 정렬|
+
+### text-decoration(글자 줄 지정 속성)
+
+|키워드|설명|
+|:---:|---|
+|underline|밑줄 지정|
+|overline|윗줄 지정|
+|line-through|가운데 줄 지정|
+|none|밑줄 나오는 글자 없앰|
+
+### text-transform(영문 대소문자 지정 속성)
+
+|키워드|설명|
+|:---:|---|
+|uppercase|영문 모두 대문자 변경|
+|lowercase|영문 모두 소문자 변경|
+|capitalize|영문의 첫글자만 대문자로 변경|
+
+### text-indent
+
+
+
+
+
+
+
 
 
 
