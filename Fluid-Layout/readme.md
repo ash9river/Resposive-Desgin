@@ -23,6 +23,34 @@ $$
   target \div context = result
 $$
 
+```css
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+}
+```
+![KakaoTalk_20240107_151342936](https://github.com/ash9river/Resposive-Desgin/assets/121378532/4dfeff24-1d68-4b0e-bdd0-6f4bf110f72e)
+
+- 가장 바깥쪽의 div 요소에서 뷰포트의 너비를 몇퍼센트로 바꿔야 하나?
+
+```css
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 96% /* 가장 바깥쪽 div 요소의 크기*/
+}
+```
+
+![KakaoTalk_20240107_151433891](https://github.com/ash9river/Resposive-Desgin/assets/121378532/b8c0af3a-d14e-40cc-b444-f51d32626ec8)
+
+
+
+
+
+
+
+    
 
 
 
