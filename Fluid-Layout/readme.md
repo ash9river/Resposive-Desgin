@@ -68,5 +68,32 @@ img {
 
 - wrapper에 max-width 속성을 추가하여, 디자인의 무분별한 확대를 막는다.
 
+```css
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 96% /* 가장 바깥쪽 div 요소의 크기*/
+  max-width:1414px;
+}
+```
+
+### 유동형 그리드와 미디어 쿼리를 함께 사용
+
+```css
+@media screen and (min-width: 1001px) and (max-width: 1080px) {
+#navigation ul li { font-size: 1.4em;}
+}
+@media screen and (min-width: 805x) and (max-width: 1000px) {
+#navigation ul li { font-size: 1.25em;}
+}
+@media screen and (min-width: 769px) and (max-width: 804px) {
+#navigation ul li { font-size: 1.1em;}
+}
+```
+
+- 뷰포트의 크기에 따라 폰트 크기를 변경, 769px부터 무한대까지 네비게이션 링크를 한 줄에 표시
+
+
+
 
 
