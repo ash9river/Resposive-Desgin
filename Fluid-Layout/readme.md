@@ -73,7 +73,7 @@ img {
   margin-right: auto;
   margin-left: auto;
   width: 96% /* 가장 바깥쪽 div 요소의 크기*/
-  max-width:1414px;
+  max-width: 1414px;
 }
 ```
 
