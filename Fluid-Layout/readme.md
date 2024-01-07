@@ -44,7 +44,7 @@ $$
 
 ![KakaoTalk_20240107_151433891](https://github.com/ash9river/Resposive-Desgin/assets/121378532/b8c0af3a-d14e-40cc-b444-f51d32626ec8)
 
-### 타이포그래피를 위해 px보다는 em을 사용
+## 타이포그래피를 위해 px보다는 em을 사용
 
 ```css
 font-size: 100%;
@@ -55,7 +55,7 @@ font-size: 1em;
 - 다 같은 크기이다.
 
 
-
+## 유동형 이미지
 
     
 
