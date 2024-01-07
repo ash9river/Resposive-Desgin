@@ -81,13 +81,13 @@ img {
 
 ```css
 @media screen and (min-width: 1001px) and (max-width: 1080px) {
-#navigation ul li { font-size: 1.4em;}
+#navigation ul li { font-size: 1.4em; }
 }
 @media screen and (min-width: 805x) and (max-width: 1000px) {
-#navigation ul li { font-size: 1.25em;}
+#navigation ul li { font-size: 1.25em; }
 }
 @media screen and (min-width: 769px) and (max-width: 804px) {
-#navigation ul li { font-size: 1.1em;}
+#navigation ul li { font-size: 1.1em; }
 }
 ```
 
