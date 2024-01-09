@@ -225,28 +225,28 @@ h1{
 
 ```css
 *{
-  속성명: 속성값;
+  elementName: elementValue;
 }  
 ```
 
 ### 태그 선택자
 
 ```css
-태그명{
-  속성명: 속성값;
+tagName{
+  elementName: elementValue;
 }
 ```
 
 ### 아이디 선택자
 
 ```css
-#아이디명{
-  속성명: 속성값;
+#idName{
+  elementName: elementValue;
 }
 ```
 
 ```html
-<태그명 id="아이디명">
+<tagName id="idName">
 ```
 
 
