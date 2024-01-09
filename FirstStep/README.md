@@ -328,9 +328,16 @@ tagName[elementName *= elementValue]{
 }
 ```
 
+## CSS3 선택자
 
+### 구조 선택자
 
-
+- `:first-child` : 배열된 선택자의 첫 번째 자손 선택
+- `:last-child` : 배열된 선택자의 마지막 자손 선택
+- `:nth-child(n)` : 배열된 선택자의 순서를 번호로 선택
+  - `nth-child(-n+index)` : 1~index까지만 선택
+  - `nth-child(n+index)` : index이후부터 모두 선택
+- `:nth-child(odd/even)` : 배열된 선택자가 홀수/짝수이면 선택
 
 
 
