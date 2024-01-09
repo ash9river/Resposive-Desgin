@@ -249,6 +249,86 @@ tagName{
 <tagName id="idName">
 ```
 
+### 클래스 선택자
+
+```css
+.className{
+  elementName: elementValue;
+}
+tagName.className{
+  elementName: elementValue;
+}
+```
+
+```html
+<tagName class="className">
+```
+
+### 자손선택자
+
+
+```css
+A > B{
+  elementName: elementValue;
+}
+```
+
+- A의 자손인 B 선택
+  
+### 후손 선택자
+
+```css
+A B{
+  elementName: elementValue;
+}
+```
+
+- A의 후손(자손포함)인 B를 선택
+
+### 동위선택자
+
+```css
+A + B {
+  elementName: elementValue;
+}
+```
+
+- A 바로 뒤에 있는 B를 선택
+
+```css
+C ~ D {
+  elementName: elementValue;
+}
+```
+
+- C 뒤에 있는 모든 D를 선택
+
+### 속성선택자
+
+```css
+/* 태그의 속성명과 속성값이 같은 경우 */
+tagName[elementName = elementValue]{
+  elementName: elementValue;
+}
+
+/* 속성값으로 시작하는 단어 찾아 적용 */
+tagName[elementName ^= elementValue]{
+  elementName: elementValue;
+}
+
+/* 속성값으로 끝나는 단어 찾아 적용 */
+tagName[elementName &= elementValue]{
+  elementName: elementValue;
+}
+
+
+/* 속성값이 포함되는 단어 찾아 적용 */
+tagName[elementName *= elementValue]{
+  elementName: elementValue;
+}
+```
+
+
 
 
 
