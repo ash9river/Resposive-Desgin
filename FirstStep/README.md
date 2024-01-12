@@ -340,6 +340,8 @@ tagName[elementName *= elementValue]{
 - `:nth-child(odd/even)` : 배열된 선택자가 홀수/짝수이면 선택
 
 
+미디어쿼리 간단히
 
-
-
+```css
+font-size: clamp(1rem, 0.3043rem + 3.4783vw, 3rem);
+```
