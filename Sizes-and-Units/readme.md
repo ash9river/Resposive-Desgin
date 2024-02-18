@@ -53,6 +53,15 @@
 
 ![image](https://github.com/ash9river/Resposive-Desgin/assets/121378532/d851a4eb-da43-436b-ac5e-0b6186c90b08)
 
+### em
+
+- 부모 요소에서 상대적인 비율
+- 그러나 부모 요소의 폰트 크기가 `em`이면, 자식 요소의 폰트 크기 `em`과 곱연산을 하는 단점이 있다.
+  - 이러한 단점때문에 `em`보다 `rem`을 선호할 수도 있다. 
+
+### rem
+
+- `html`의 `font-size` 값을 곱 연산한 값이다.
 
 
 
